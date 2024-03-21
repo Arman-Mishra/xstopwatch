@@ -4,7 +4,7 @@ import "./App.css";
 const format = (timer) => {
   const mins = Math.floor(timer / 60);
   const secs = timer % 60;
-  return `${mins} : ${secs < 10 ? "0" : ""}${secs}`;
+  return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
 };
 
 function App() {
